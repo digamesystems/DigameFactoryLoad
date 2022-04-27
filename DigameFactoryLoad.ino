@@ -154,7 +154,7 @@ void configureOTA(){
     
   });
 
-  displayAPScreen(ssid,WiFi.softAPIP().toString());
+  displayTextScreen("AP MODE",ssid,WiFi.softAPIP().toString());
   AsyncElegantOTA.begin(&server);   
   server.begin();
 }
