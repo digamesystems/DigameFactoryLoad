@@ -20,7 +20,10 @@
 // For Over the Air (OTA) updates... 
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-#include <AsyncElegantOTA.h>
+#include <AsyncElegantOTA.h> // A lovely little library that provides a web 
+                             // Interface for over the air updates of the firmware. 
+                             // See: https://github.com/ayushsharma82/ElegantOTA
+
 
 bool useOTA = true; 
 
