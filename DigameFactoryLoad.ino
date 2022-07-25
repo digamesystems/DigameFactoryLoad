@@ -66,6 +66,7 @@ void loop()  // Main
 void configureDisplay(){
 //****************************************************************************************
   initDisplay();
+  showWhite();
   displayTextScreen("SCREEN TEST", "This should be","nicely centered.");
 }
 
@@ -75,8 +76,8 @@ void configureRTC(){
 //****************************************************************************************
   NetworkConfig config;
   bool updateRTC = false;
-  config.ssid       = (const char *)"RikuWorld";   // YOUR_NETWORK_NAME 
-  config.password   = (const char *)"CorbinlovesRiku"; // YOUR_PASSWORD
+  config.ssid       = (const char *)"Bighead";   // YOUR_NETWORK_NAME 
+  config.password   = (const char *)"billgates"; // YOUR_PASSWORD
 
   Wire.begin();
   
